@@ -22,8 +22,10 @@ Additional part of the program "additionalDllOpenMP" contains 2 catalogs: "dllCo
 
 8."dllCompiling" directory contains the project to create "dllCompiling.dll" library from the "curves.h" and "main" file.
 "main.cpp " this is an analogue "curves.cpp " file with "__declspec(dllimport)" and "__declspec(dllimport) " wrappers.
-"__declspec(dllimport/dllimport)" wrappers implement Application Programming Interface for communication between library and executable files. 
+"__declspec(dllimport/dllimport)" wrappers implement Application Programming Interface for communication between library and executable files.
+
 9.In "execCompiling" directory contains the project to create "execCompiling.exe" file. Executable file connect with "dllCompiling.dll" and doesn't work without it.
+
 10.Other .dll files in the "additionalDllOpenMP" directory are used to connect the OpenMP library.
 
 

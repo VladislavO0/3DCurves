@@ -1,8 +1,8 @@
 # CADExchangerTask
 Program in C++ that implement support of 3D curves hierarchy
 
-#  1. The Mathcad Curves file.xmcd can be used for visual representation of curves in space depending on different parameters. This file allows  to check the correctness of creating curves in a low-level language.
-#  2. The Mathcad Curves file.pdf is a snapshot of curves with the given parameters.
+#1. The Mathcad Curves file.xmcd can be used for visual representation of curves in space depending on different parameters. This file allows  to check the correctness of creating curves in a low-level language.
+#2. The Mathcad Curves file.pdf is a snapshot of curves with the given parameters.
 
 # The main part of the program contains 2 header files located in the "include" directory and 2 implementation files in the "src" directory. 
 #    3. The "constant.h" file contains symbolic constants that are connected to calculation files.

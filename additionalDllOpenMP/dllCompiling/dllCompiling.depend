@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1694833219 source:c:\users\home\documents\cadexchanger\3dcurvesapiopenmp\additional\dllcompiling\main.cpp
+	"curves.h"
+	"constants.h"
+	<omp.h>
+
+1694834022 c:\users\home\documents\cadexchanger\3dcurvesapiopenmp\additional\dllcompiling\curves.h
+	<cassert>
+	<algorithm>
+	<cmath>
+	<map>
+	<vector>
+	<memory>
+	<ctime>
+	<iostream>
+	<typeinfo>
+	<omp.h>
+
+1694823927 c:\users\home\documents\cadexchanger\3dcurvesapiopenmp\additional\dllcompiling\constants.h
+	<cstddef>
+

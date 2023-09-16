@@ -21,12 +21,14 @@ The main part of the program contains 2 header files located in the "include" di
 Additional part of the program "additionalDllOpenMP" contains 2 catalogs: "dllCompiling" and "execCompiling". Additional part of the program is implemented using the "Code::blocks" IDE.
 
 8. "dllCompiling" directory contains the project to create "dllCompiling.dll" library from the "curves.h" and "main" file.
+9. 
 "main.cpp " this is an analogue "curves.cpp " file with "__declspec(dllimport)" and "__declspec(dllimport) " wrappers.
+
 "__declspec(dllimport/dllimport)" wrappers implement Application Programming Interface for communication between library and executable files.
 
-9. In "execCompiling" directory contains the project to create "execCompiling.exe" file. Executable file connect with "dllCompiling.dll" and doesn't work without it.
+11. In "execCompiling" directory contains the project to create "execCompiling.exe" file. Executable file connect with "dllCompiling.dll" and doesn't work without it.
 
-10. Other .dll files in the "additionalDllOpenMP" directory are used to connect the OpenMP library.
+12. Other .dll files in the "additionalDllOpenMP" directory are used to connect the OpenMP library.
 
 
 
